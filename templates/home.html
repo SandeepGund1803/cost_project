@@ -1,0 +1,28 @@
+<html>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> COST PRISE PREDICTION </h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> promotion_name :  <input type="text", name='promotion_name', placeholder="enter value"> <br><br>
+            store_type :  <input type="text", name='store_type', placeholder="enter value"> <br><br>
+            store_city :  <input type="text", name='store_city', placeholder="enter value"> <br><br>
+            store_sqft : <input type="text", name='store_sqft', placeholder="enter value"> <br><br>
+            frozen_sqft : <input type="text", name='frozen_sqft', placeholder="enter value"> <br><br>
+            meat_sqft : <input type="text", name='meat_sqft', placeholder="enter value"> <br><br>
+            coffee_bar : <input type="text", name='coffee_bar', placeholder="enter value"> <br><br>
+            salad_bar : <input type="text", name='salad_bar', placeholder="enter value"> <br><br>
+            prepared_food : <input type="text", name='prepared_food', placeholder="enter value"> <br><br>
+            florist : <input type="text", name='florist', placeholder="enter value"> <br><br>
+            media_type : <input type="text", name='media_type', placeholder="enter value"> <br><br></b>
+            <input type="submit" , value='predict!' >
+        </form>
+
+
+
+    </center>
+
+    </body>
+</html>
